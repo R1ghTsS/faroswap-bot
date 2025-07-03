@@ -35,6 +35,7 @@ Performs randomized swaps, reverse swaps, and airdrop-style PHRS sending, with r
 ## 1. **Copy the Repository**
 ```bash
 git clone https://github.com/R1ghTsS/faroswap-bot.git
+cd faroswap-bot
 ```
 
 ### 2. **Install Dependencies**
