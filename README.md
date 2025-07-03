@@ -32,13 +32,18 @@ Performs randomized swaps, reverse swaps, and airdrop-style PHRS sending, with r
 
 ## Quickstart
 
-### 1. **Install Dependencies**
+## 1. **Copy the Repository**
+```bash
+git clone https://github.com/R1ghTsS/faroswap-bot.git
+```
+
+### 2. **Install Dependencies**
 
 ```bash
 npm install node-fetch abort-controller ethers https-proxy-agent
 ```
 
-### 2. **Prepare Files**
+### 3. **Prepare Files**
 
 - **wallets.txt**  
   List each wallet/private key, and optional proxy, one per line:  
@@ -58,13 +63,13 @@ npm install node-fetch abort-controller ethers https-proxy-agent
 - **auto_swap_utilities.js**  
   This must be present in the same directory and provide the `ERC20_ABI` used by the script.
 
-### 3. **Run**
+### 4. **Run**
 
 ```bash
 node main.js
 ```
 
-### 4. **Monitor**
+### 5. **Monitor**
 
 - All actions, errors, and retries are printed to the terminal and saved in `faroswap.log` for full history.
 
